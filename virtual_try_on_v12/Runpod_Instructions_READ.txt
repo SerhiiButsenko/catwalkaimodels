@@ -1,0 +1,24 @@
+Register RunPod from here please : https://runpod.io?ref=1aka98lq
+
+Look the PNG file to see selections I made
+
+upload everything into workspace folder
+
+to install run below command
+
+export HF_HOME="/workspace"
+chmod +x RunPod_Install_VTON.sh
+./RunPod_Install_VTON.sh
+
+to use after install
+
+open a new terminal and run below code to start every time
+
+cd /workspace/IDM-VTON
+export HF_HOME="/workspace"
+source venv/bin/activate
+export PYTHONWARNINGS=ignore
+python app_VTON.py --share True
+
+
+
